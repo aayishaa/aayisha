@@ -5,7 +5,7 @@ b = int(y)
 
 
 
-for num in range(a,b + 1):
+for num in range(a,b):
    
    if num > 1:
        for i in range(2,num):
