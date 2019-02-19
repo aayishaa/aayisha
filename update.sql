@@ -1,0 +1,12 @@
+create database office;
+use office;
+create table Employee ( ID int(90),NAME varchar(20),AGE int,ADDRESS varchar(90),SALARY int(90));
+insert into Employee values(1,'Ramesh',32,'Ahmedabad',2000);
+insert into Employee values(2,'Khilan',25,'Delhi',1500);
+insert into Employee values(3,'Kaushik',23,'Kota',2000);
+insert into Employee values(4,'Chaitali',25,'Mumbai',6500);
+insert into Employee values(5,'Hardik',27,'Bhopal',8500);
+insert into Employee values(6,'Komal',22,'MP',4500);
+insert into Employee values(7,'Muffy',24,'Indore',10000);
+update Employee SET ADDRESS = 'Maharastra' where NAME='Komal';
+select* from Employee;
