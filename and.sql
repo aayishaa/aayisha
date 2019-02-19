@@ -1,0 +1,11 @@
+create database class;
+use class;
+create table student(ID int,NAME varchar(20),AGE int);
+insert into student values(1,'Vinodini',25);
+insert into student values(2,'Banu',27);
+insert into student values(3,'Kaushik',23);
+insert into student values(4,'Praveen',25);
+insert into student values(5,'Kamal',22);
+insert into student values(6,'Malini',24);
+insert into student values(7,'Ramesh',32);
+select*from student where age =32 ;
