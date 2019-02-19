@@ -1,0 +1,10 @@
+create database course;
+use course;
+create table GUVI(first_name varchar(30),last_name varchar(30),city varchar(40));
+insert into GUVI values('aayisha','malik','chennai');
+insert into GUVI values('fahima','sikkander','chennai');
+insert into GUVI values('fahira','sikkander','chennai');
+insert into GUVI values('afroze','babu','chennai');
+create index idx_last_name on GUVI(last_name);
+desc GUVI;
+select*from GUVI;
