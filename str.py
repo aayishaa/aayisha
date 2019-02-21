@@ -1,0 +1,5 @@
+v1=(' Buchy ' , ' Elva ' , ' Robert ' )
+v2=(' Stewens ' , ' Musk ' , ' Junior ')
+print(v1[0]+v2[0])
+print(v1[1]+v2[1])
+print(v1[2]+v2[2])
